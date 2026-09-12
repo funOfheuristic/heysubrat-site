@@ -40,7 +40,15 @@
     <header class="site-header" data-site-header>
       <div class="shell header-inner">
         <a class="brand-mark" href="#top" aria-label="Hey Subrat, back to top">
-          <span class="brand-prompt" aria-hidden="true">↳</span>
+          <span class="brand-avatar" aria-hidden="true">
+            <img
+              class="brand-avatar-image"
+              src="subrat_image.png"
+              alt=""
+              width="2604"
+              height="1654"
+            >
+          </span>
           <span>Hey Subrat</span>
         </a>
 
@@ -104,20 +112,19 @@
             </dl>
           </div>
 
-          <!-- REPLACE: Profile photograph — replace this CSS portrait with your own image when ready. -->
-          <div class="hero-visual" aria-label="Abstract profile placeholder for Subrat Mishra" role="img">
-            <div class="visual-frame">
-              <div class="visual-grid" aria-hidden="true"></div>
+          <div class="hero-visual">
+            <figure class="visual-frame">
+              <img
+                class="hero-profile-image"
+                src="subrat_image.png"
+                alt="Subrat Mishra outdoors in a forest"
+                width="2604"
+                height="1654"
+                fetchpriority="high"
+              >
               <span class="visual-index" aria-hidden="true">SUB / 01</span>
-              <span class="visual-orbit visual-orbit-one" aria-hidden="true"></span>
-              <span class="visual-orbit visual-orbit-two" aria-hidden="true"></span>
-              <div class="portrait-silhouette" aria-hidden="true">
-                <span class="portrait-head"></span>
-                <span class="portrait-body"></span>
-              </div>
               <p class="visual-caption"><span>Always</span> in progress</p>
-              <p class="visual-stamp" aria-hidden="true">BUILD<br>MOVE<br>MAKE</p>
-            </div>
+            </figure>
           </div>
         </div>
 
@@ -303,13 +310,19 @@
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="shell about-grid">
           <div class="about-portrait" data-reveal>
-            <!-- REPLACE: Profile photograph — add an optimized local portrait and update the markup here. -->
-            <div class="photo-placeholder" role="img" aria-label="Profile photograph placeholder for Subrat Mishra">
-              <span class="photo-label">Your photo<br>goes here</span>
+            <figure class="photo-placeholder">
+              <img
+                class="about-profile-image"
+                src="subrat_image.png"
+                alt="Subrat Mishra outdoors in a forest"
+                width="2604"
+                height="1654"
+                loading="lazy"
+              >
               <span class="photo-corner photo-corner-one" aria-hidden="true"></span>
               <span class="photo-corner photo-corner-two" aria-hidden="true"></span>
               <span class="photo-number" aria-hidden="true">SM / 1993—</span>
-            </div>
+            </figure>
           </div>
 
           <div class="about-copy" data-reveal>
