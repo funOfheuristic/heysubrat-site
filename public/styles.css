@@ -193,8 +193,8 @@ svg {
   max-width: none;
   object-fit: cover;
   object-position: left center;
-  transform: scale(1.7);
-  transform-origin: 21% 29%;
+  transform: scale(2.3);
+  transform-origin: 34% 0;
 }
 
 .menu-toggle {
